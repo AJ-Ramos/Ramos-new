@@ -1,0 +1,97 @@
+	body{
+		background-image: url('elements/olga-antonenko-programmer-workspace-final.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+        height: 100%;
+        width: 100%;
+	}
+    #navbar{
+    position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+    }
+    #homecontent{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    top: 20%;
+    left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+    }
+    #h_1{
+    	font-family: 'Righteous', cursive;
+    	font-size: 150px;
+    	color: white;
+    	margin-bottom: 0;
+    }
+    #h_1 span{
+    	color: #FF9A02;
+    }
+
+    #h_5{
+    	font-family: 'Comfortaa', cursive;
+    	margin-top: -20px;    	
+    	font-size: 25px;
+    	color: #FF9A02;
+    	bottom: 0;
+    }
+    #dark{
+    	position: absolute;
+    	width: 100%;
+    	height: 100%;
+    	margin-top: -10px;
+    	margin-left: -10px;
+    	background:  linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,.3));
+    }
+    #costum_btn{
+    	position: absolute;
+    	top: 600px;
+    	left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+    	font-family: 'Raleway', sans-serif;
+    	color: #FF9A02;
+    	padding: 10px;
+    	border-radius: 30px;
+    	border: 1px solid #FF9A02;
+        transition: background-color, color, border, padding 0.5s ease-in-out;
+    }
+	ul{
+		float: right;
+		margin-right: 50px;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+		padding: 10px;
+	}
+	a{
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		height: 30px;
+		text-decoration: none;
+		color: white;
+		transition: color 0.5s;
+		transition: font-size 0.5s ease-in;
+        
+	}
+	article{
+		font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+		color: white;
+		margin-top: -20px;
+		margin-bottom: 60px;
+	}
+	a:hover{
+		color: #FF9A02;
+		font-size: 21px;
+	}
+	#costum_btn:hover{
+		background-color: rgba(0,0,0,0);
+        color: white;
+        background-color: #FF9A02;
+        border: 0px solid #FF9A02;
+        padding: 14px;
+	}
