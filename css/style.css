@@ -37,7 +37,7 @@
         -webkit-transform: translate(-50%,-50%);
     }
     .main_img{
-	content:url("https://i.imgur.com/e7k4nw9.jpg");
+	content:url("elements/e7k4nw9.jpg");
     	width: 100%;
     	height: auto;
     	filter: brightness(30%);
