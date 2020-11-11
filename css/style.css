@@ -38,7 +38,8 @@
         left: 50%;
         -webkit-transform: translate(-50%,-50%);
     }
-    #pic img{
+    #main_img{
+	content:url("elements/Capture.png");
     	width: 100%;
     	height: auto;
     	filter: brightness(30%);
