@@ -31,11 +31,10 @@
     .main_img{
 	content:url("elements/e7k4nw9.jpg");
 	position: absolute;
-    	width: 100%;
+    	width: 1000px;
 	height: auto;
-        top: 40%;
-        left: 50%;
-        -webkit-transform: translate(-50%,-50%);
+        top: 0;
+	left: 0;
     	filter: brightness(30%);
     }
     #message{
