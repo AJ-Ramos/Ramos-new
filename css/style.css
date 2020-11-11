@@ -253,7 +253,6 @@
         left: 50%;
         width: 40%;
         -webkit-transform: translate(-50%,-50%);
-        
     }
     #foot_table th, td{
         text-align: left;
