@@ -38,7 +38,7 @@
         -webkit-transform: translate(-50%,-50%);
     }
     .main_img{
-	content:url("elements/Capture.jpg");
+	content:url("elements/Capture.jpeg");
     	width: 100%;
     	height: auto;
     	filter: brightness(30%);
